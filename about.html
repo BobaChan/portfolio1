@@ -104,12 +104,10 @@
   
 <script>
 window.alert('Welcome to my website everyone! Read a bit, look at pics, do whatever you would like! But in the end, hope you leave happy :P');
-
 function bigImg(x) {
     x.style.height = "416px";
     x.style.width = "600px";
 }
-
 function normalImg(x) {
     x.style.height = "305px";
     x.style.width = "440px";
@@ -121,6 +119,18 @@ function normalImg(x) {
 <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="http://www.blushyogurt.com/wp-content/uploads/2017/05/animaljam_3.png">
 
 </a>
+
+<h2 style="text-align:center;"> Here are some pictures of nice animals </h2>
+
+<img id="pictures" src="http://kindakind.com/wp-content/uploads/2016/09/pandas-live_64dff22c2fe56e9.jpg" style="width:600px">
+
+<button onclick="document.getElementById('pictures').src='http://kindakind.com/wp-content/uploads/2016/09/pandas-live_64dff22c2fe56e9.jpg'"> Black and White </button>
+
+<button onclick="document.getElementById('pictures').src='https://pbs.twimg.com/profile_images/855042228498169856/-ZBN3m3A.jpg'"> Red and White </button>
+
+<button onclick="document.getElementById('pictures').src='http://3.bp.blogspot.com/-8miiQILk5ZI/UtepVyCIoNI/AAAAAAAAOe4/Sm2463zRay4/s1600/bear_w.jpg'"> Brown and Fluffy </button>
+
+<button onclick="document.getElementById('pictures').src='https://i.ytimg.com/vi/-dmMETQBozk/hqdefault.jpg'"> Something different </button>
 
  </body>
  </html>
