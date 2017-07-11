@@ -11,16 +11,17 @@
   
 <body style="background-color:rgb(133, 200, 255);">
       
-  <h2 style="color:purple; text-align:center;"> A little about me </h2>
-  
-  <p title="Just a littlee :)" style="text-align:center;"> I am going to be a senior in my upcoming school year.
-    I currently go to Silver Creek High School. I was born on the morning of February 11th of the year 2000.
-    That makes me a dragon in the Chinese zodiac, and as a coincidence I like dragons too; 
-    or really mythical creatures in general. Many people, including my friends would probably say
-    that I am a very credible person. I would probably agree. But I prefer too trusting over gullible. 
-    Aside from that I am a very friendly person that tries really hard to make people feel 
-    welcome and involved because in the end we are all here to help one another. Plus things are so much easier
-    and so much more fun with a friend by your side! </p>
+  <h2 style="color:purple; text-align:center;"> A little self reflection </h2>
+
+<button onclick="myFunction()"> About Me </button>  
+    
+   <p id="info" title="Just a littlee :)" style="text-align:center;"> </p>
+   
+  <script>
+function myFunction() {
+    document.getElementById("info").innerHTML = "I am going to be a senior in my upcoming school year.I currently go to Silver Creek High School. I was born on the morning of February 11th of the year 2000.That makes me a dragon in the Chinese zodiac, and as a coincidence I like dragons too; or really mythical creatures in general. Many people, including my friends would probably say that I am a very credible person. I would probably agree. But I prefer too trusting over gullible. Aside from that I am a very friendly person that tries really hard to make people feel welcome and involved because in the end we are all here to help one another. Plus things are so much easier and so much more fun with a friend by your side!";
+}
+</script>
   
   <h2 style="color:green; text-align:center;"> A bit of the future and the past </h2>
   
@@ -131,6 +132,7 @@ function normalImg(x) {
 <button onclick="document.getElementById('pictures').src='http://3.bp.blogspot.com/-8miiQILk5ZI/UtepVyCIoNI/AAAAAAAAOe4/Sm2463zRay4/s1600/bear_w.jpg'"> Brown and Fluffy </button>
 
 <button onclick="document.getElementById('pictures').src='https://i.ytimg.com/vi/-dmMETQBozk/hqdefault.jpg'"> Something different </button>
+
 
  </body>
  </html>
